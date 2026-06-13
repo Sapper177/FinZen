@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>FinZen - Low Stim Aquarium</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Import Three.js and GLTFLoader via CDN -->
+  <script type="importmap">
+  {
+    "imports": {
+      "three": "https://cdn.jsdelivr.net/npm/three@v0.184.0/build/three.module.js",
+      "three/addons/": "https://cdn.jsdelivr.net/npm/three@v0.184.0/examples/jsm/"
+    }
+  }
+  </script>
+</head>
+
+<body>
+  <!-- <div class="spotify-banner">
+    <iframe data-testid="embed-iframe" style="border-radius:12px"
+      src="https://open.spotify.com/embed/playlist/33oswCUq6fx3Ri5G9jR9so?utm_source=generator&si=7b812bff6c4443bd"
+      width="100%" frameBorder="0" allow="autoplay; clipboard-write; encrypted-media; loading=" lazy">
+    </iframe>
+  </div> -->
+
+  <div id="ambient-overlay">
+    <button id="start-btn">Enter FinZen</button>
+  </div>
+
+  <canvas id="aquarium-canvas"></canvas>
+  <script type="module" src="app.js"></script>
+</body>
+
+</html>

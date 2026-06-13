@@ -1,0 +1,5 @@
+assets/fish1.glb filter=lfs diff=lfs merge=lfs -text
+assets/fish2.glb filter=lfs diff=lfs merge=lfs -text
+assets/manta.glb filter=lfs diff=lfs merge=lfs -text
+assets/seaweed.glb filter=lfs diff=lfs merge=lfs -text
+assets/fan_coral.glb filter=lfs diff=lfs merge=lfs -text
